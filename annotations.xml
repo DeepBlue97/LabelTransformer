@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>6</id>
+      <size>188</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2023-04-11 01:46:27.384021+00:00</created>
+      <updated>2023-04-11 02:11:37.486425+00:00</updated>
+      <subset>Train</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>187</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>6</id>
+          <start>0</start>
+          <stop>187</stop>
+          <url>http://localhost:8080/api/jobs/6</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>peter</username>
+        <email>945048933@qq.com</email>
+      </owner>
+      <assignee>
+        <username>peter</username>
+        <email>945048933@qq.com</email>
+      </assignee>
+      <labels>
+        <label>
+          <name>pallet</name>
+          <color>#fa3253</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2023-04-11 02:12:14.822038+00:00</dumped>
+  </meta>
+  <image id="0" name="Color_2023_03_28_14_36_59_320.bmp" width="1920" height="1080">
+    <points label="pallet" source="manual" occluded="0" points="800.47,736.73;800.87,747.88;801.66,774.18;823.18,782.94;823.18,757.44;880.55,776.96;880.15,800.87;908.04,813.22;910.03,786.53;975.76,808.84;975.76,838.32;1006.44,847.48;1007.63,816.80;1008.83,804.85;1022.37,799.67;1023.17,827.96;1084.52,778.56;1085.32,753.46;1097.67,744.69;1097.27,768.20;1143.09,731.55;1143.09,710.03;1153.44,698.88;1153.05,704.86;1151.85,728.76;979.75,656.65" z_order="0">
+    </points>
+  </image>
+  <image id="1" name="Color_2023_03_28_14_37_04_447.bmp" width="1920" height="1080">
+    <points label="pallet" source="manual" occluded="0" points="455.26,447.46;456.18,461.40;456.54,492.15;481.52,496.38;481.72,469.45;548.77,489.84;547.25,518.25;581.43,526.65;581.15,498.69;656.97,522.79;655.85,549.60;689.44,557.93;688.32,529.72;688.60,516.97;704.38,513.67;704.38,542.43;768.96,493.87;768.60,471.00;784.33,459.84;784.33,480.24;831.11,445.14;830.75,426.14;840.35,413.83;840.35,420.01;840.35,444.79;660.20,366.42" z_order="0">
+    </points>
+  </image>
+  <image id="2" name="Color_2023_03_28_14_37_05_684.bmp" width="1920" height="1080">
+    <points label="pallet" source="manual" occluded="0" points="384.43,704.66;384.43,718.72;385.58,749.62;414.63,755.38;415.32,729.10;487.48,745.01;486.33,773.13;517.68,780.74;518.61,752.85;599.07,773.13;597.92,801.95;628.81,808.64;629.27,776.13;630.19,764.14;646.33,760.45;646.79,787.66;711.58,731.64;712.04,707.89;727.72,695.67;728.41,716.19;770.60,680.91;772.21,658.78;782.59,647.25;782.82,653.94;782.82,676.76;600.45,607.83" z_order="0">
+    </points>
+  </image>
+  <image id="3" name="Color_2023_03_28_14_41_00_904.bmp" width="1920" height="1080">
+    <points label="pallet" source="manual" occluded="0" points="514.03,608.84;518.41,624.78;529.16,655.06;545.50,665.41;537.53,635.54;596.09,667.81;598.88,694.50;629.16,710.43;623.19,681.75;688.52,720.39;688.92,745.49;721.59,764.22;717.21,731.15;714.42,714.42;745.49,704.06;753.46,738.32;886.12,651.07;881.74,619.60;905.25,604.06;910.82,634.74;1008.03,565.82;1007.63,539.92;1023.57,520.80;1024.37,531.95;1025.96,562.23;835.13,465.42" z_order="0">
+    </points>
+  </image>
+  <image id="4" name="Color_2023_03_28_14_41_02_473.bmp" width="1920" height="1080">
+    <points label="pallet" source="manual" occluded="0" points="792.22,563.15;794.16,576.15;803.29,611.29;819.61,625.40;814.63,593.58;864.99,637.85;864.43,667.73;886.57,682.39;886.29,655.55;935.81,699.27;935.26,727.49;967.90,751.83;963.48,716.14;962.37,700.93;997.23,691.80;1000.00,727.49;1157.97,642.27;1156.31,608.52;1184.53,593.58;1185.64,626.50;1313.45,556.23;1314.28,525.80;1335.86,503.67;1336.42,515.56;1335.86,550.70;1129.47,426.76" z_order="0">
+    </points>
+  </image>
+  <image id="5" name="Color_2023_03_28_14_41_04_509.bmp" width="1920" height="1080">
+    <points label="pallet" source="manual" occluded="0" points="5.46,7.84;5.46,7.84;5.46,7.84;5.46,7.84;5.46,7.84;5.46,7.84;5.46,7.84;5.46,7.84;5.46,7.84;5.46,7.84;5.46,7.84;884.57,781.08;884.57,734.68;884.57,720.41;928.59,729.92;928.59,767.99;1133.20,744.20;1135.58,709.70;1178.40,704.94;1174.83,738.25;1358.03,712.08;1361.60,681.15;1399.66,666.88;1397.29,679.96;1388.96,716.84;1236.69,515.80" z_order="0">
+    </points>
+  </image>
+  <image id="6" name="Color_2023_03_28_14_41_13_525.bmp" width="1920" height="1080">
+    <points label="pallet" source="manual" occluded="0" points="855.82,462.27;5.27,4.27;5.27,4.27;5.27,4.27;5.27,4.27;5.27,4.27;5.27,4.27;5.27,4.27;5.27,4.27;5.27,4.27;5.27,4.27;773.54,698.20;767.60,658.55;763.63,640.71;812.21,658.55;817.16,693.25;1030.30,707.12;1028.31,672.43;1083.83,673.42;1081.85,705.14;1314.81,720.01;1316.79,684.32;1373.30,669.45;1373.30,695.23;1370.32,731.91;1317.78,472.18" z_order="0">
+    </points>
+  </image>
+  <image id="7" name="Color_2023_03_28_14_41_16_254.bmp" width="1920" height="1080">
+    <points label="pallet" source="manual" occluded="0" points="936.82,366.19;6.01,7.39;6.01,7.39;6.01,7.39;6.01,7.39;6.01,7.39;6.01,7.39;6.01,7.39;6.01,7.39;6.01,7.39;6.01,7.39;827.16,573.13;824.89,543.87;821.44,528.38;860.48,546.76;859.86,573.13;1041.19,604.73;1043.05,575.20;1090.13,580.91;1090.13,608.45;1304.65,645.76;1309.26,620.49;1359.17,605.00;1356.83,625.66;1352.84,660.63;1373.97,405.57" z_order="0">
+    </points>
+  </image>
+  <image id="8" name="Color_2023_03_28_14_41_28_618.bmp" width="1920" height="1080">
+    <points label="pallet" source="manual" occluded="0" points="1126.70,411.96;1127.53,428.48;1128.36,454.91;1115.96,469.78;1112.66,447.48;1075.48,491.26;1079.62,519.35;1056.48,546.61;1053.18,518.52;1009.40,573.87;1014.35,605.27;992.05,630.05;986.18,595.44;984.20,580.32;948.68,581.31;951.49,607.41;802.79,569.58;797.91,545.46;758.67,537.19;763.55,559.91;648.55,526.21;641.70,501.42;607.91,482.84;607.91,501.42;613.44,526.21;788.33,360.99" z_order="0">
+    </points>
+  </image>
+  <image id="9" name="Color_2023_03_28_14_41_34_618.bmp" width="1920" height="1080">
+    <points label="pallet" source="manual" occluded="0" points="1526.39,751.84;1525.01,767.68;1521.57,803.48;1495.89,815.46;1498.92,785.58;1427.53,820.41;1424.50,857.93;1394.35,875.55;1396.00,839.69;1314.15,881.75;1314.49,918.31;1279.24,934.90;1279.24,893.73;1281.24,876.45;1248.40,863.85;1244.82,893.73;1117.33,800.93;1117.33,774.63;1091.86,755.15;1088.35,782.62;1014.82,723.00;1015.99,701.52;990.11,670.40;988.94,683.55;987.70,710.68;1187.48,605.00" z_order="0">
+    </points>
+  </image>
+  <image id="10" name="Color_2023_03_28_14_41_47_273.bmp" width="1920" height="1080">
+    <points label="pallet" source="manual" occluded="0" points="1381.72,306.46;1381.72,317.62;1376.15,348.29;1358.22,355.86;1359.41,335.15;1316.39,355.86;1314.79,378.97;1292.48,384.95;1293.28,367.02;1244.28,388.53;1243.88,415.22;1219.58,421.20;1219.98,392.52;1221.17,378.97;1197.27,381.36;1197.27,399.69;1102.05,357.86;1102.05,332.36;1081.34,322.00;1080.14,345.51;1006.84,314.83;1006.84,292.12;986.92,278.97;986.92,294.51;987.71,314.83;1135.92,225.19" z_order="0">
+    </points>
+  </image>
+  <image id="11" name="Color_2023_03_28_14_41_50_037.bmp" width="1920" height="1080">
+    <points label="pallet" source="manual" occluded="0" points="1271.58,713.19;1271.12,724.26;1271.82,748.23;1254.75,756.30;1255.45,734.86;1216.25,752.85;1215.79,779.13;1196.43,788.81;1196.43,763.68;1149.85,786.51;1152.16,814.17;1130.03,823.86;1128.87,793.42;1129.34,783.28;1109.05,783.51;1107.43,803.80;1012.91,758.61;1014.29,736.94;990.77,727.02;990.77,749.39;913.54,713.42;913.31,692.21;898.09,678.15;897.17,687.14;896.02,707.66;1035.73,630.65" z_order="0">
+    </points>
+  </image>
+  <image id="12" name="Color_2023_03_28_14_44_13_103.bmp" width="1920" height="1080">
+    <points label="pallet" source="manual" occluded="0" points="1057.78,720.45;1059.84,735.60;1061.91,772.77;1103.90,779.66;1103.90,745.92;1225.07,766.58;1222.31,801.00;1271.19,811.32;1272.57,774.84;1412.32,799.62;1407.50,834.73;1458.44,844.37;1465.32,805.13;1468.08,787.23;3.12,4.50;3.12,4.50;3.12,4.50;3.12,4.50;3.12,4.50;3.12,4.50;3.12,4.50;3.12,4.50;1460.51,503.60;3.12,5.18;3.12,5.18;1176.19,482.95" z_order="0">
+    </points>
+  </image>
+  <image id="13" name="Color_2023_03_28_14_44_16_520.bmp" width="1920" height="1080">
+    <points label="pallet" source="manual" occluded="0" points="443.48,889.23;450.36,907.01;465.28,950.04;519.78,934.55;511.17,896.69;648.86,864.56;654.59,904.15;708.52,892.10;702.21,852.51;830.71,823.83;835.30,859.97;880.62,849.07;877.76,809.49;875.46,794.00;4.04,4.61;4.04,4.61;4.04,4.61;4.04,4.61;4.04,4.61;4.04,4.61;4.04,4.61;4.04,4.61;798.01,544.45;4.61,5.76;4.61,5.76;516.34,588.05" z_order="0">
+    </points>
+  </image>
+  <image id="14" name="Color_2023_03_28_14_44_21_064.bmp" width="1920" height="1080">
+  </image>
+  <image id="15" name="Color_2023_03_28_14_44_30_264.bmp" width="1920" height="1080">
+  </image>
+  <image id="16" name="Color_2023_03_28_14_44_57_975.bmp" width="1920" height="1080">
+  </image>
+  <image id="17" name="Color_2023_03_28_14_45_11_175.bmp" width="1920" height="1080">
+  </image>
+  <image id="18" name="Color_2023_03_28_14_45_13_684.bmp" width="1920" height="1080">
+  </image>
+  <image id="19" name="Color_2023_03_28_14_45_16_556.bmp" width="1920" height="1080">
+  </image>
+  <image id="20" name="Color_2023_03_28_14_45_21_575.bmp" width="1920" height="1080">
+  </image>
+  <image id="21" name="Color_2023_03_28_14_45_25_392.bmp" width="1920" height="1080">
+  </image>
+  <image id="22" name="Color_2023_03_28_14_45_26_592.bmp" width="1920" height="1080">
+  </image>
+  <image id="23" name="Color_2023_03_28_14_45_28_848.bmp" width="1920" height="1080">
+  </image>
+  <image id="24" name="Color_2023_03_28_14_45_30_920.bmp" width="1920" height="1080">
+  </image>
+  <image id="25" name="Color_2023_03_28_14_45_32_811.bmp" width="1920" height="1080">
+  </image>
+  <image id="26" name="Color_2023_03_28_14_45_34_664.bmp" width="1920" height="1080">
+  </image>
+  <image id="27" name="Color_2023_03_28_14_45_36_411.bmp" width="1920" height="1080">
+  </image>
+  <image id="28" name="Color_2023_03_28_14_45_37_321.bmp" width="1920" height="1080">
+  </image>
+  <image id="29" name="Color_2023_03_28_14_46_57_975.bmp" width="1920" height="1080">
+  </image>
+  <image id="30" name="Color_2023_03_28_14_47_06_956.bmp" width="1920" height="1080">
+  </image>
+  <image id="31" name="Color_2023_03_28_14_47_09_944.bmp" width="1920" height="1080">
+  </image>
+  <image id="32" name="Color_2023_03_28_14_47_11_325.bmp" width="1920" height="1080">
+  </image>
+  <image id="33" name="Color_2023_03_28_14_47_12_597.bmp" width="1920" height="1080">
+  </image>
+  <image id="34" name="Color_2023_03_28_14_47_14_269.bmp" width="1920" height="1080">
+  </image>
+  <image id="35" name="Color_2023_03_28_14_47_17_980.bmp" width="1920" height="1080">
+  </image>
+  <image id="36" name="Color_2023_03_28_14_47_19_180.bmp" width="1920" height="1080">
+  </image>
+  <image id="37" name="Color_2023_03_28_14_47_20_125.bmp" width="1920" height="1080">
+  </image>
+  <image id="38" name="Color_2023_03_28_14_48_16_308.bmp" width="1920" height="1080">
+  </image>
+  <image id="39" name="Color_2023_03_28_14_48_39_580.bmp" width="1920" height="1080">
+  </image>
+  <image id="40" name="Color_2023_03_28_14_48_40_816.bmp" width="1920" height="1080">
+  </image>
+  <image id="41" name="Color_2023_03_28_14_48_41_761.bmp" width="1920" height="1080">
+  </image>
+  <image id="42" name="Color_2023_03_28_14_48_42_889.bmp" width="1920" height="1080">
+  </image>
+  <image id="43" name="Color_2023_03_28_14_48_48_925.bmp" width="1920" height="1080">
+  </image>
+  <image id="44" name="Color_2023_03_28_14_48_50_197.bmp" width="1920" height="1080">
+  </image>
+  <image id="45" name="Color_2023_03_28_14_48_51_289.bmp" width="1920" height="1080">
+  </image>
+  <image id="46" name="Color_2023_03_28_14_48_52_125.bmp" width="1920" height="1080">
+  </image>
+  <image id="47" name="Color_2023_03_28_14_48_53_108.bmp" width="1920" height="1080">
+  </image>
+  <image id="48" name="Color_2023_03_28_14_48_53_944.bmp" width="1920" height="1080">
+  </image>
+  <image id="49" name="Color_2023_03_28_14_48_54_780.bmp" width="1920" height="1080">
+  </image>
+  <image id="50" name="Color_2023_03_28_14_48_55_725.bmp" width="1920" height="1080">
+  </image>
+  <image id="51" name="Color_2023_03_28_14_48_56_780.bmp" width="1920" height="1080">
+  </image>
+  <image id="52" name="Color_2023_03_28_14_48_57_689.bmp" width="1920" height="1080">
+  </image>
+  <image id="53" name="Color_2023_03_28_14_48_58_633.bmp" width="1920" height="1080">
+  </image>
+  <image id="54" name="Color_2023_03_28_14_48_59_580.bmp" width="1920" height="1080">
+  </image>
+  <image id="55" name="Color_2023_03_28_14_49_00_453.bmp" width="1920" height="1080">
+  </image>
+  <image id="56" name="Color_2023_03_28_14_49_01_653.bmp" width="1920" height="1080">
+  </image>
+  <image id="57" name="Color_2023_03_28_14_49_02_816.bmp" width="1920" height="1080">
+  </image>
+  <image id="58" name="Color_2023_03_28_14_49_21_653.bmp" width="1920" height="1080">
+  </image>
+  <image id="59" name="Color_2023_03_28_14_49_26_816.bmp" width="1920" height="1080">
+  </image>
+  <image id="60" name="Color_2023_03_28_14_49_35_289.bmp" width="1920" height="1080">
+  </image>
+  <image id="61" name="Color_2023_03_28_14_49_37_544.bmp" width="1920" height="1080">
+  </image>
+  <image id="62" name="Color_2023_03_28_14_49_54_889.bmp" width="1920" height="1080">
+  </image>
+  <image id="63" name="Color_2023_03_28_14_49_59_397.bmp" width="1920" height="1080">
+  </image>
+  <image id="64" name="Color_2023_03_28_14_50_06_852.bmp" width="1920" height="1080">
+  </image>
+  <image id="65" name="Color_2023_03_28_14_50_12_057.bmp" width="1920" height="1080">
+  </image>
+  <image id="66" name="Color_2023_03_28_14_51_44_201.bmp" width="1920" height="1080">
+  </image>
+  <image id="67" name="Color_2023_03_28_14_51_46_348.bmp" width="1920" height="1080">
+  </image>
+  <image id="68" name="Color_2023_03_28_14_51_48_712.bmp" width="1920" height="1080">
+  </image>
+  <image id="69" name="Color_2023_03_28_14_51_51_002.bmp" width="1920" height="1080">
+  </image>
+  <image id="70" name="Color_2023_03_28_14_51_52_857.bmp" width="1920" height="1080">
+  </image>
+  <image id="71" name="Color_2023_03_28_14_51_53_984.bmp" width="1920" height="1080">
+  </image>
+  <image id="72" name="Color_2023_03_28_14_51_55_038.bmp" width="1920" height="1080">
+  </image>
+  <image id="73" name="Color_2023_03_28_14_51_56_820.bmp" width="1920" height="1080">
+  </image>
+  <image id="74" name="Color_2023_03_28_14_51_58_493.bmp" width="1920" height="1080">
+  </image>
+  <image id="75" name="Color_2023_03_28_14_52_04_312.bmp" width="1920" height="1080">
+  </image>
+  <image id="76" name="Color_2023_03_28_14_52_07_293.bmp" width="1920" height="1080">
+  </image>
+  <image id="77" name="Color_2023_03_28_14_52_08_165.bmp" width="1920" height="1080">
+  </image>
+  <image id="78" name="Color_2023_03_28_14_52_08_638.bmp" width="1920" height="1080">
+  </image>
+  <image id="79" name="Color_2023_03_28_14_52_09_112.bmp" width="1920" height="1080">
+  </image>
+  <image id="80" name="Color_2023_03_28_14_52_09_984.bmp" width="1920" height="1080">
+  </image>
+  <image id="81" name="Color_2023_03_28_14_52_10_457.bmp" width="1920" height="1080">
+  </image>
+  <image id="82" name="Color_2023_03_28_14_52_10_930.bmp" width="1920" height="1080">
+  </image>
+  <image id="83" name="Color_2023_03_28_14_52_12_565.bmp" width="1920" height="1080">
+  </image>
+  <image id="84" name="Color_2023_03_28_14_52_13_073.bmp" width="1920" height="1080">
+  </image>
+  <image id="85" name="Color_2023_03_28_14_52_13_548.bmp" width="1920" height="1080">
+  </image>
+  <image id="86" name="Color_2023_03_28_14_52_14_021.bmp" width="1920" height="1080">
+  </image>
+  <image id="87" name="Color_2023_03_28_14_52_14_966.bmp" width="1920" height="1080">
+  </image>
+  <image id="88" name="Color_2023_03_28_14_52_17_037.bmp" width="1920" height="1080">
+  </image>
+  <image id="89" name="Color_2023_03_28_14_52_18_820.bmp" width="1920" height="1080">
+  </image>
+  <image id="90" name="Color_2023_03_28_14_52_19_329.bmp" width="1920" height="1080">
+  </image>
+  <image id="91" name="Color_2023_03_28_14_52_20_494.bmp" width="1920" height="1080">
+  </image>
+  <image id="92" name="Color_2023_03_28_14_52_21_257.bmp" width="1920" height="1080">
+  </image>
+  <image id="93" name="Color_2023_03_28_14_52_35_257.bmp" width="1920" height="1080">
+  </image>
+  <image id="94" name="Color_2023_03_28_14_52_36_857.bmp" width="1920" height="1080">
+  </image>
+  <image id="95" name="Color_2023_03_28_14_52_37_984.bmp" width="1920" height="1080">
+  </image>
+  <image id="96" name="Color_2023_03_28_14_52_39_220.bmp" width="1920" height="1080">
+  </image>
+  <image id="97" name="Color_2023_03_28_14_52_42_094.bmp" width="1920" height="1080">
+  </image>
+  <image id="98" name="Color_2023_03_28_14_52_43_037.bmp" width="1920" height="1080">
+  </image>
+  <image id="99" name="Color_2023_03_28_14_52_44_601.bmp" width="1920" height="1080">
+  </image>
+  <image id="100" name="Color_2023_03_28_14_52_56_020.bmp" width="1920" height="1080">
+  </image>
+  <image id="101" name="Color_2023_03_28_14_52_56_857.bmp" width="1920" height="1080">
+  </image>
+  <image id="102" name="Color_2023_03_28_14_52_58_201.bmp" width="1920" height="1080">
+  </image>
+  <image id="103" name="Color_2023_03_28_14_52_59_184.bmp" width="1920" height="1080">
+  </image>
+  <image id="104" name="Color_2023_03_28_14_53_00_637.bmp" width="1920" height="1080">
+  </image>
+  <image id="105" name="Color_2023_03_28_14_53_01_912.bmp" width="1920" height="1080">
+  </image>
+  <image id="106" name="Color_2023_03_28_14_53_02_457.bmp" width="1920" height="1080">
+  </image>
+  <image id="107" name="Color_2023_03_28_14_53_03_548.bmp" width="1920" height="1080">
+  </image>
+  <image id="108" name="Color_2023_03_28_14_53_04_457.bmp" width="1920" height="1080">
+  </image>
+  <image id="109" name="Color_2023_03_28_14_53_05_548.bmp" width="1920" height="1080">
+  </image>
+  <image id="110" name="Color_2023_03_28_14_53_06_093.bmp" width="1920" height="1080">
+  </image>
+  <image id="111" name="Color_2023_03_28_14_53_06_601.bmp" width="1920" height="1080">
+  </image>
+  <image id="112" name="Color_2023_03_28_14_53_07_837.bmp" width="1920" height="1080">
+  </image>
+  <image id="113" name="Color_2023_03_28_14_53_08_348.bmp" width="1920" height="1080">
+  </image>
+  <image id="114" name="Color_2023_03_28_14_53_16_239.bmp" width="1920" height="1080">
+  </image>
+  <image id="115" name="Color_2023_03_28_14_53_16_932.bmp" width="1920" height="1080">
+  </image>
+  <image id="116" name="Color_2023_03_28_14_53_17_586.bmp" width="1920" height="1080">
+  </image>
+  <image id="117" name="Color_2023_03_28_14_53_19_259.bmp" width="1920" height="1080">
+  </image>
+  <image id="118" name="Color_2023_03_28_14_53_57_403.bmp" width="1920" height="1080">
+  </image>
+  <image id="119" name="Color_2023_03_28_14_53_58_567.bmp" width="1920" height="1080">
+  </image>
+  <image id="120" name="Color_2023_03_28_14_54_00_203.bmp" width="1920" height="1080">
+  </image>
+  <image id="121" name="Color_2023_03_28_14_54_04_786.bmp" width="1920" height="1080">
+  </image>
+  <image id="122" name="Color_2023_03_28_14_54_07_439.bmp" width="1920" height="1080">
+  </image>
+  <image id="123" name="Color_2023_03_28_14_54_08_714.bmp" width="1920" height="1080">
+  </image>
+  <image id="124" name="Color_2023_03_28_14_54_11_914.bmp" width="1920" height="1080">
+  </image>
+  <image id="125" name="Color_2023_03_28_14_56_27_554.bmp" width="1920" height="1080">
+  </image>
+  <image id="126" name="Color_2023_03_28_14_56_30_318.bmp" width="1920" height="1080">
+  </image>
+  <image id="127" name="Color_2023_03_28_14_56_32_863.bmp" width="1920" height="1080">
+  </image>
+  <image id="128" name="Color_2023_03_28_14_56_36_643.bmp" width="1920" height="1080">
+  </image>
+  <image id="129" name="Color_2023_03_28_14_56_41_300.bmp" width="1920" height="1080">
+  </image>
+  <image id="130" name="Color_2023_03_28_14_56_50_790.bmp" width="1920" height="1080">
+  </image>
+  <image id="131" name="Color_2023_03_28_14_56_56_679.bmp" width="1920" height="1080">
+  </image>
+  <image id="132" name="Color_2023_03_28_14_56_59_879.bmp" width="1920" height="1080">
+  </image>
+  <image id="133" name="Color_2023_03_28_14_57_02_136.bmp" width="1920" height="1080">
+  </image>
+  <image id="134" name="Color_2023_03_28_14_57_06_171.bmp" width="1920" height="1080">
+  </image>
+  <image id="135" name="Color_2023_03_28_14_57_07_372.bmp" width="1920" height="1080">
+  </image>
+  <image id="136" name="Color_2023_03_28_14_57_08_536.bmp" width="1920" height="1080">
+  </image>
+  <image id="137" name="Color_2023_03_28_14_57_09_444.bmp" width="1920" height="1080">
+  </image>
+  <image id="138" name="Color_2023_03_28_14_57_13_079.bmp" width="1920" height="1080">
+  </image>
+  <image id="139" name="Color_2023_03_28_14_58_04_026.bmp" width="1920" height="1080">
+  </image>
+  <image id="140" name="Color_2023_03_28_14_58_09_227.bmp" width="1920" height="1080">
+  </image>
+  <image id="141" name="Color_2023_03_28_14_58_12_243.bmp" width="1920" height="1080">
+  </image>
+  <image id="142" name="Color_2023_03_28_14_58_13_771.bmp" width="1920" height="1080">
+  </image>
+  <image id="143" name="Color_2023_03_28_14_58_16_936.bmp" width="1920" height="1080">
+  </image>
+  <image id="144" name="Color_2023_03_28_14_58_20_500.bmp" width="1920" height="1080">
+  </image>
+  <image id="145" name="Color_2023_03_28_14_58_22_318.bmp" width="1920" height="1080">
+  </image>
+  <image id="146" name="Color_2023_03_28_14_58_31_336.bmp" width="1920" height="1080">
+  </image>
+  <image id="147" name="Color_2023_03_28_14_58_32_791.bmp" width="1920" height="1080">
+  </image>
+  <image id="148" name="Color_2023_03_28_14_58_34_063.bmp" width="1920" height="1080">
+  </image>
+  <image id="149" name="Color_2023_03_28_14_58_35_007.bmp" width="1920" height="1080">
+  </image>
+  <image id="150" name="Color_2023_03_28_14_58_36_936.bmp" width="1920" height="1080">
+  </image>
+  <image id="151" name="Color_2023_03_28_14_58_38_354.bmp" width="1920" height="1080">
+  </image>
+  <image id="152" name="Color_2023_03_28_14_58_41_626.bmp" width="1920" height="1080">
+  </image>
+  <image id="153" name="Color_2023_03_28_14_58_46_571.bmp" width="1920" height="1080">
+  </image>
+  <image id="154" name="Color_2023_03_28_14_58_48_207.bmp" width="1920" height="1080">
+  </image>
+  <image id="155" name="Color_2023_03_28_14_58_51_118.bmp" width="1920" height="1080">
+  </image>
+  <image id="156" name="Color_2023_03_28_14_58_54_790.bmp" width="1920" height="1080">
+  </image>
+  <image id="157" name="Color_2023_03_28_14_58_56_679.bmp" width="1920" height="1080">
+  </image>
+  <image id="158" name="Color_2023_03_28_14_58_57_843.bmp" width="1920" height="1080">
+  </image>
+  <image id="159" name="Color_2023_03_28_14_58_59_080.bmp" width="1920" height="1080">
+  </image>
+  <image id="160" name="Color_2023_03_28_14_59_00_679.bmp" width="1920" height="1080">
+  </image>
+  <image id="161" name="Color_2023_03_28_14_59_01_554.bmp" width="1920" height="1080">
+  </image>
+  <image id="162" name="Color_2023_03_28_14_59_02_499.bmp" width="1920" height="1080">
+  </image>
+  <image id="163" name="Color_2023_03_28_15_00_27_558.bmp" width="1920" height="1080">
+  </image>
+  <image id="164" name="Color_2023_03_28_15_00_29_011.bmp" width="1920" height="1080">
+  </image>
+  <image id="165" name="Color_2023_03_28_15_00_30_611.bmp" width="1920" height="1080">
+  </image>
+  <image id="166" name="Color_2023_03_28_15_00_32_504.bmp" width="1920" height="1080">
+  </image>
+  <image id="167" name="Color_2023_03_28_15_00_36_611.bmp" width="1920" height="1080">
+  </image>
+  <image id="168" name="Color_2023_03_28_15_00_38_103.bmp" width="1920" height="1080">
+  </image>
+  <image id="169" name="Color_2023_03_28_15_00_39_847.bmp" width="1920" height="1080">
+  </image>
+  <image id="170" name="Color_2023_03_28_15_00_42_903.bmp" width="1920" height="1080">
+  </image>
+  <image id="171" name="Color_2023_03_28_15_01_16_830.bmp" width="1920" height="1080">
+  </image>
+  <image id="172" name="Color_2023_03_28_15_01_24_322.bmp" width="1920" height="1080">
+  </image>
+  <image id="173" name="Color_2023_03_28_15_01_25_667.bmp" width="1920" height="1080">
+  </image>
+  <image id="174" name="Color_2023_03_28_15_01_26_647.bmp" width="1920" height="1080">
+  </image>
+  <image id="175" name="Color_2023_03_28_15_01_27_375.bmp" width="1920" height="1080">
+  </image>
+  <image id="176" name="Color_2023_03_28_15_01_28_358.bmp" width="1920" height="1080">
+  </image>
+  <image id="177" name="Color_2023_03_28_15_01_29_447.bmp" width="1920" height="1080">
+  </image>
+  <image id="178" name="Color_2023_03_28_15_01_31_447.bmp" width="1920" height="1080">
+  </image>
+  <image id="179" name="Color_2023_03_28_15_01_33_775.bmp" width="1920" height="1080">
+  </image>
+  <image id="180" name="Color_2023_03_28_15_01_34_467.bmp" width="1920" height="1080">
+  </image>
+  <image id="181" name="Color_2023_03_28_15_01_35_704.bmp" width="1920" height="1080">
+  </image>
+  <image id="182" name="Color_2023_03_28_15_01_42_358.bmp" width="1920" height="1080">
+  </image>
+  <image id="183" name="Color_2023_03_28_15_01_50_611.bmp" width="1920" height="1080">
+  </image>
+  <image id="184" name="Color_2023_03_28_15_01_55_847.bmp" width="1920" height="1080">
+  </image>
+  <image id="185" name="Color_2023_03_28_15_01_56_467.bmp" width="1920" height="1080">
+  </image>
+  <image id="186" name="Color_2023_03_28_15_01_57_883.bmp" width="1920" height="1080">
+  </image>
+  <image id="187" name="Color_2023_03_28_15_01_59_667.bmp" width="1920" height="1080">
+  </image>
+</annotations>
