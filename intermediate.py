@@ -1,3 +1,8 @@
+"""
+独立于任何标注格式的标注对象，标注转换时的中间格式
+一张图中可以有多个对象，每个对象可以有多个标注（如一个框加数个关键点）
+"""
+
 class InterImage:
     def __init__(self, id, name, objs, width, height):
         self.set_id(id)
