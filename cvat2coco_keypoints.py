@@ -62,7 +62,7 @@ keypoints_name = {  # 各个关键点名称
 }
 for label in keypoints_name:
 
-    coco_category = CocoCategory(supercategory=label, id=labels.index(label), name=label, 
+    coco_category = CocoCategory(supercategory=label, id=labels.index(label)+1, name=label, 
                                  keypoints=keypoints_name[label], skeleton=skeleton[label])
     coco_categories.append(coco_category)
 
@@ -120,12 +120,15 @@ for interImage in interImages:
                                          area=(boundary_piexl_y_max-boundary_piexl_y_min)*boundary_piexl_x_max-boundary_piexl_x_min/2, 
                                          iscrowd=0, keypoints=keypoints, 
                                          image_id=coco_image.id, id=len(coco_annotations), 
-                                         bbox=[(boundary_piexl_x_min+boundary_piexl_x_max)/2,
-                                              (boundary_piexl_y_min+boundary_piexl_y_max)/2,
-                                              boundary_piexl_x_max-boundary_piexl_x_min+3,
-                                              boundary_piexl_y_max-boundary_piexl_y_min+3,
-                                              ], 
-                                        category_id=labels.index(interObj.label))
+                                         bbox=[
+                                            # (boundary_piexl_x_min+boundary_piexl_x_max)/2,
+                                            # (boundary_piexl_y_min+boundary_piexl_y_max)/2,
+                                            boundary_piexl_x_min,  # COCO BBox为左上角坐标+宽高
+                                            boundary_piexl_y_min,
+                                            boundary_piexl_x_max-boundary_piexl_x_min+3,
+                                            boundary_piexl_y_max-boundary_piexl_y_min+3,
+                                            ], 
+                                        category_id=labels.index(interObj.label)+1)
         coco_annotations.append(coco_annotation)
     if len(interImage.objs):  # 只保存有标注的图片
         coco_images.append(coco_image)
