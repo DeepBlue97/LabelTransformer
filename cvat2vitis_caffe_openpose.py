@@ -1,7 +1,33 @@
 """
+  [
+    {
+        "image_id": "image_name", 
+        "keypoint_annotations": 
+        {
+            "human1":[px1, py1, pt1, px2, py2, pt2, ..., px14, py14, pt14],
+            "human2",:[...],
+            ...,
+            "humanN",:[...]
+        },
+        "human_annotations": 
+        {
+            "human1": [x1,y1,x2,y2],
+            "human2": [x1,y1,x2,y2],
+            ...,
+            "humanN":[x1,y1,x2,y2]
+        }
+    },
+    {
+        ...
+    }
+  ]
+"""
+
+
+"""
 由于cvat不支持直接导出关键点标注为COCO格式；
 且由于它没有跳过某些被遮挡关键点的功能，我们通过将被遮挡的关键点点在图片左上角来“跳过”这些点。
-综合以上两点，我们写了这个转换脚本，将cvat格式的xml标注格式转换为COCO关键点标注格式。
+综合以上两点，我们写了这个转换脚本，将cvat格式的xml标注格式转换为 Vitis-AI中的Caffe支持的.json格式，如上所示。
 """
 
 import xmltodict
@@ -47,6 +73,10 @@ with open('tuopan_16keypoints/annotations.xml', 'r') as f:
 
 labels = sorted(list(labels))
 
+
+# Vitis-AI-Caffe-OpenPose所需格式
+vitis_ai_caffe_openpose = []
+
 # 组织成coco格式
 coco_images = []
 coco_annotations = []
@@ -87,9 +117,9 @@ for interImage in interImages:
                 points_cant_see += 1
                 point.x = 0
                 point.y = 0
-                keypoints += [point.x, point.y, 0] # 0表示完全看不到，1表示部分遮挡，2表示完全可见
+                keypoints += [point.x, point.y, 3] # 3表示无效点，2表示遮挡，1表示完全可见
             else:
-                keypoints += [point.x, point.y, 2]
+                keypoints += [point.x, point.y, 1]
             
             if point.x != 0:
                 if boundary_piexl_x_min is None:
@@ -116,22 +146,41 @@ for interImage in interImages:
         assert boundary_piexl_y_min != None
         assert boundary_piexl_y_max != None
         # assert coco_category.keypoints
-        coco_annotation = CocoAnnotation(segmentation=[], num_keypoints=num_keypoints-points_cant_see, 
-                                         area=(boundary_piexl_y_max-boundary_piexl_y_min)*boundary_piexl_x_max-boundary_piexl_x_min/2, 
-                                         iscrowd=0, keypoints=keypoints, 
-                                         image_id=coco_image.id, id=len(coco_annotations), 
-                                         bbox=[(boundary_piexl_x_min+boundary_piexl_x_max)/2,
-                                              (boundary_piexl_y_min+boundary_piexl_y_max)/2,
-                                              boundary_piexl_x_max-boundary_piexl_x_min+3,
-                                              boundary_piexl_y_max-boundary_piexl_y_min+3,
-                                              ], 
-                                        category_id=labels.index(interObj.label))
-        coco_annotations.append(coco_annotation)
-    if len(interImage.objs):  # 只保存有标注的图片
-        coco_images.append(coco_image)
+
+    vitis_ai_caffe_openpose.append(
+
+        {
+            "image_id": interImage.name, 
+            "keypoint_annotations": 
+            {
+                "pallet1":keypoints,
+            },
+            "human_annotations": 
+            {
+                "pallet1": [boundary_piexl_x_min,boundary_piexl_y_min,boundary_piexl_x_max,boundary_piexl_y_max],
+            }
+        }
+    )
+
+        # coco_annotation = CocoAnnotation(segmentation=[], num_keypoints=num_keypoints-points_cant_see, 
+        #                                  area=(boundary_piexl_y_max-boundary_piexl_y_min)*boundary_piexl_x_max-boundary_piexl_x_min/2, 
+        #                                  iscrowd=0, keypoints=keypoints, 
+        #                                  image_id=coco_image.id, id=len(coco_annotations), 
+        #                                  bbox=[(boundary_piexl_x_min+boundary_piexl_x_max)/2,
+        #                                       (boundary_piexl_y_min+boundary_piexl_y_max)/2,
+        #                                       boundary_piexl_x_max-boundary_piexl_x_min,
+        #                                       boundary_piexl_y_max-boundary_piexl_y_min,
+        #                                       ], 
+        #                                 category_id=labels.index(interObj.label))
+        # coco_annotations.append(coco_annotation)
+    # if len(interImage.objs):  # 只保存有标注的图片
+    #     coco_images.append(coco_image)
 
 
-cocoKeypointsJson = CocoKeypointsJson(images=coco_images, annotations=coco_annotations, categories=coco_categories)
-cocoKeypointsJson.export_to_json_file(filename='pallet_16keypoints.json')
+# cocoKeypointsJson = CocoKeypointsJson(images=coco_images, annotations=coco_annotations, categories=coco_categories)
+# cocoKeypointsJson.export_to_json_file(filename='pallet_16keypoints.json')
 
+import json
+with open('vitis_ai_caffe_openpose.json', 'w') as f:
+    json.dump(vitis_ai_caffe_openpose, f)
 print()

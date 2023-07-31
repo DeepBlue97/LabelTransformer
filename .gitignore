@@ -127,3 +127,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+mini_500_person_keypoints_train2017.json
+mini_5000_person_keypoints_train2017.json
+pallet_16keypoints_old.json
+pallet_16keypoints.json
+pallet_26keypoints_nobox.json
+pallet_26keypoints_noObj.json
+pallet_26keypoints.json
+person_keypoints_train2017.json
+pallet_26keypoints.json
+vitis_ai_caffe_openpose.json
+tuopan_16keypoints/annotations.xml
+tuopan_16keypoints.zip
+pallet_26keypoints.json

@@ -136,9 +136,10 @@ class InterAnno:
     
 
 class InterPoint:
-    def __init__(self, x, y):
+    def __init__(self, x, y, visibility=2):
         self.x = float(x)
         self.y = float(y)
+        self.visibility = visibility
     
     def to_int(self):
         x = int(self.x)
